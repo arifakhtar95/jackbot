@@ -1,0 +1,483 @@
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+    
+    /* .show{
+        background-color: #f3fdff;
+        padding: 0;
+    } */
+    
+    
+    .navbar-nav .nav-item {
+        padding: 8px 0;
+    }
+    /* ********** Home Page ********** */
+
+    /* ********** Jackbot Work Content  ********** */
+    .jackbot-content{
+        margin-left: 25px;
+    }
+
+
+
+
+/* Home Page end */
+}
+
+
+
+
+@media screen and (max-width: 991px){
+/* ************ Home Page ************* */
+
+/*  ********* Meer dan 10,000 verschillende assets ********* */
+.meer-dan-content{
+    width: 100%;
+    margin-bottom: -150px;
+}
+
+/* *************** Footer *************** */
+.footer-row-top{
+    margin-top: 300px;
+    padding-top: 30px;
+}
+.res-about{
+    padding-left: 200px;
+}
+.res-element{
+    padding-left: 210px;
+}
+/* Footer */
+/* Home Page end */
+
+/* Waraam Jackbot Page Start  */
+/* Waraam Jackbot Main Image Content Start */
+.waarom-image-section-1-content{
+    margin: 45px 0;
+}
+.waarom-image-section-1-content h3{
+    font-size: 30px;
+}
+.waarom-row-bottom{
+    margin-bottom: -200px;
+}
+/* Waraam Jackbot Main Image Content End */
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+   /* ********** Home Page ******** */
+
+   /*  ********* Meer dan 10,000 verschillende assets ********* */
+.meer-dan-content{
+    width: 100%;
+    margin-bottom: -200px;
+}
+
+   
+/* ******* What is Jackbot Background Image ********** */
+.about-image  {
+    width: 73%;
+    margin: 43px auto;
+}
+
+.jackbot-content{
+    margin-left: 0;
+}
+
+/* Subscrib Content */
+.subscriber-inner .search-box input{
+    width: 100%;
+}
+.klant-content-info p{
+    padding: 20px 10px;
+}
+
+
+/* ****** Footer ********** */
+.footer-row-top{
+margin-top: 300px;
+padding-top: 20px;
+}
+.res-about{
+    padding-left: 50px;
+}
+.res-element{
+    padding-left: 60px;
+}
+
+/* Footer */
+/* Home Page end */
+
+
+/* Waraam Jackbot Page Start  */
+/* Waraam Jackbot Main Image Content Start */
+.waarom-inner{
+    margin: 50px 0;
+    padding: 0 15px;
+}
+
+.waarom-inner h2{
+    font-size: 40px;
+}
+
+.waarom-inner-img{
+    text-align: center;
+}
+
+.waarom-inner-img img{
+    width: 70%;
+}
+.waarom-row-bottom{
+    margin-bottom: -250px;
+}
+/* Waraam Jackbot Main Image Content End */
+
+}
+
+
+
+
+
+@media screen and (max-width: 575px){
+/* ****** Home Page ************ */
+
+
+/*  ********* Meer dan 10,000 verschillende assets ********* */
+.meer-dan-content{
+width: 100%;
+margin-bottom: -400px;
+}
+
+
+/*  ********* Footer ************ */
+.footer-row-top{
+margin-top: 500px;
+padding-top: 20px;
+}
+.res-about{
+    padding-left: 0;
+}
+.res-element{
+    padding-left: 12px;
+}
+
+/* **** Waarom Jackbot Page Start ******** */
+.waarom-row-bottom{
+    margin-bottom: -500px;
+}
+}
+
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    
+/* Home Page */
+
+.show{
+    background-color: #e9f5f9;
+}
+
+/*  *********  Robot  Banner Content  *********** */
+.banner-image{
+background-image:radial-gradient(150% 140% at 50% -30px, #e9f5f9 75%, transparent 75%);
+padding-bottom: 65px;
+border-radius: 0  0 15% 15%;
+margin-bottom: -70px;
+height: auto;
+}
+
+.banner_col1{
+    margin-top: 25px;
+    padding: 0;
+}
+.banner_col1 h2{
+    font-size: 21px;
+    margin-top: 100px;
+}
+.banner_col1 p{
+    font-size: 15px;
+}
+/* Robot Banner Button */
+.banner_buttons button a{
+    padding: 7px 15px;    
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*  *********  Robot  Banner Content End  *********** */
+/* After Banner Content Start */
+.after-banner-h4{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Three Column After Banner  Start  */
+
+.dage-content h3{
+    font-size: 18px;
+}
+.bepaal-content h3{
+    font-size: 18px;
+}
+.klanten-content h3{
+    font-size: 18px;
+}
+.three-colum-bottom{
+margin-bottom: 0;
+}
+/* Three Column After Banner  End  */
+/* After Banner Content End */
+
+/* *********  What is A JackBot Section Start ********* */
+.section-about{
+background-color: #f3fdff;
+padding: 30px 0;
+    margin: 30px 0;
+}
+.about-image  {
+    width: 100%;
+    margin: 15px auto;
+}
+/* About Content */
+.about-content{
+    text-align: center;
+}
+.about-content h3{
+    font-size: 16px;
+}
+.about-content span{
+font-size: 20px;
+}
+.about-content p{
+    font-size: 13px;
+}
+.about-content h4{
+    font-size: 20px;
+}
+.about-content h4 span{
+    font-size: 13px;
+}
+
+.about-content button a{
+    padding: 5px 15px;
+}
+
+/* *********  What is A JackBot Section End ********* */
+
+/* ********* How Does JackBot Work Start *********** */
+.jackbot-work{
+font-size: 18px;
+margin: 0 0 20px;    
+}
+.jackbot-work span{
+    font-size: 20px;
+}
+
+/* Jackbot Work Content */
+.jackbot-icon{
+    margin-top: 30px;
+}
+.jackbot-icon i{
+    padding: 15px;
+    font-size: 20px;
+}
+.jackbot-content{
+    margin-left: 0;
+}
+.jackbot-content h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.jackbot-content p{
+    font-size: 13px;
+}
+
+/* ********* How Does JackBot Work End ********* */
+
+/********* Testimonials  Our Customers Say Section Start  ********** */
+.testimonial-outer{
+    margin-top: 50px;
+    padding: 30px 0 100px;
+}
+.testimonial-banner{
+    height: auto;
+}
+.testimonial-inner-content{
+    margin-right: 0;
+}
+.testimonial-inner-content h3{
+    font-size: 20px;
+    margin-top: 0;
+}
+.testimonial-inner-content h3 span{
+    font-size: 22px;
+}
+.testimonial-inner-content p{
+    font-size: 13px;
+}
+.testimonial-main-content h4{
+    font-size: 18px;
+}
+.testimonial-main-content h4 span{
+    font-size: 16px;
+}
+
+/********* Testimonials  Our Customers Say Section End  ********** */
+
+/* **** We always try to be as close to you as possible Start **** */
+.subscriber-inner h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+}
+.subscriber-inner .search-box input{
+    font-weight: 400;
+}
+.subscriber-inner .search-box button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.klant-content-info p{
+    padding: 20px 10px;
+    font-size: 15px;
+}
+/*  We always try to be as close to you as possible End */
+
+/*  ********* Meer dan 10,000 verschillende assets  Start ********* */
+.meer-dan-content{
+width: 100%;
+margin-bottom: -500px;
+}
+.meer-dan-content h3{
+    font-size: 18px;
+    margin: 0;
+}
+.meer-dan-content p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.meer-dan-content button a{
+    font-size: 12px;
+    padding: 7px 15px ;
+}
+
+/*  ********* Meer dan 10,000 verschillende assets  End ********* */
+
+/*  ********* Footer Start ********** */
+.footer-row-top{
+margin-top: 550px;
+padding-top: 20px;
+}
+.res-about{
+    padding-left: 0;
+}
+.res-element{
+    padding-left: 12px;
+}
+
+/*  ********* Footer End ********** */
+
+/* ****** Jackbot - Waarom Page Start ****** */
+.waarom-inner{
+    padding: 25px 15px;
+    margin: 20px  0;
+}
+
+.waarom-inner-img{
+    display: none;
+}
+.waarom-inner h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.waarom-image-section-1{
+    margin: 20px 0;
+}
+.waarom-image-section-1-content{
+    margin: 0;
+    padding: 5px;
+}
+.waarom-image-section-1-content h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.waarom-row-bottom{
+    margin-bottom: -500px;
+}
+
+/* ***** Kennisbank Page Start ****** */
+.kennisbank-content h3{
+    font-size: 20px;
+    margin: 30px 0 10px 0; 
+}
+.zoeken-content{    
+    flex-direction: column;
+}
+.zoeken-content input{
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+
+}
+.zoeken-content button{
+    margin-top: 15px;
+}
+.zoeken-content button a{
+    font-size: 18px;
+    padding: 5px 20px;
+}
+.bekeken-content h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+/* Collapsed DropDown Content Button Start */
+.accordion-button-outer{
+    font-size: 16px;
+    padding: 15px 10px;
+  
+}
+
+/* ***** Kennisbank Page End ****** */
+/* Contact Page Start ********* */
+
+.heb-p{
+    font-size: 16px;
+    margin: 40px 0;
+}
+.neem-h3{
+    font-size: 24px;
+    text-align: center;
+}
+.contact-btn-outer button a{
+    font-size: 18px;
+    padding: 10px 25px;
+}
+
+.contact-box-outer{
+    padding: 30px 20px;
+    margin: 30px 0 30px 15px;
+}
+.contact-box-outer h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 0;
+}
+.contact-box-outer p{
+    font-size: 14px;
+}
+
+
+
+
+
+}

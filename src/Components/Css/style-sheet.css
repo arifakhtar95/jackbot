@@ -1,0 +1,1024 @@
+
+*{
+box-sizing: border-box;
+padding: 0; margin: 0;
+}
+body{
+padding: 0;
+margin: 0;
+}
+
+.no-padding{
+margin: 0 auto;
+padding: 0;
+}
+
+/* Percentage Bar Sectiom Start */
+.progress-container {
+width: 100%;
+height: 3px;
+background-color: transparent;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 999;
+}
+.progress-bar {
+height: 3px;
+background: #36e0a0;
+width: 0%;
+}
+.btn-top{
+border: none;
+outline: none;
+position: fixed;
+right: 1.5%;
+bottom: 3%;
+opacity: 0.9;
+transition: all 1s;
+cursor: pointer;
+background-color: #36e0a0;
+padding: 3px;
+border-radius: 100px;
+display: none;
+z-index: 999;
+}
+.btn-top:hover{
+opacity: 1;
+bottom: 4%;
+transition: all 1s;
+}
+/* Percentage Bar Sectiom End */
+
+
+
+
+/*============== Navbar Start ==========================*/
+.navbar{
+padding: 0 10px;
+margin: 0;
+}
+
+.nav-icon-backg{
+background-color: #36e0a0;
+}
+.navbar-brand img{
+width: 150px;
+margin: 0;
+padding: 0;
+}
+.navbar-nav .nav-item  .nav-link{
+margin: 0 20px;
+padding: 0;
+font-size: 16px;;
+color: #323232;
+}
+
+.navbar-nav .nav-item  .nav-link:hover{
+color: #36e0a0;
+}
+.navbar-nav  .nav-item .active-2{
+color: #36e0a0;
+}
+
+
+/* Navbar- Button */
+button{
+border: 0;
+}
+.btn-1{
+background-color: transparent;
+bottom: none;
+border-radius: 5px;
+height: 40px;
+width: 150px; 
+margin-right: 4px;
+}
+.btn-1 a {    
+font-size: 14px;
+font-weight: bold;  
+color: #36e0a0;
+padding: 10px 35px;
+border: 1px solid transparent;
+transition: linear all 0.3s;
+background-color: transparent;
+text-decoration: none;
+border-radius: 5px;
+width: 150px;
+}
+.btn-1 a:hover{
+background-color: #36e0a0;
+transition: 0.7s;
+color: white;   
+}
+
+.btn-2{
+background-color: transparent;
+bottom: none;
+border-radius: 5px;
+background-color: #36e0a0;
+color: white;
+height: 40px;
+width: 150px; 
+}
+.btn-2:hover{
+background-color: transparent;
+border: 1px solid #36e0a0;
+color: #36e0a0;
+transition: 0.7s;
+}
+.btn-2 a:hover{
+color: #36e0a0;
+}
+.btn-2 a{
+font-size: 14px;
+font-weight: bold;  
+color: white;
+padding: 10px 35px;
+border: 1px solid transparent;
+transition: linear all 0.3s;
+background-color: transparent;
+text-decoration: none;
+border-radius: 5px;
+width: 100%;
+}
+
+/* ************* Home Page ******************  */
+
+/* Robot  Banner Content */
+.background-colour-home-page{
+background-color: #f3fdff;
+}
+.banner-image{
+background-image: url('../Images/background-banner.jfif');
+background-repeat: no-repeat;
+background-size: cover;    
+background-position: center center; 
+border-radius:  0 0 40% 40% ;
+z-index: -999;
+padding: 52px 0 175px;
+margin-top: -52px;
+/*height: 700px;*/
+}
+
+.banner_col1{
+padding: 0 20px;
+}
+.banner_col1 h2{
+font-size: 45px;
+font-weight: bold;
+margin-top: 150px;
+}
+.banner_col1 p{
+font-size: 17px;
+margin-top: 30px;
+}
+
+.banner_buttons{
+margin-top: 25px;
+}
+
+
+.banner_buttons .bnr_btn2 a{
+background-color: #36e0a0;
+color: white;
+border-radius: 5px;
+}
+
+.banner_buttons .bnr_btn2 a:hover{
+background-color: transparent ;
+color: #36e0a0;
+border-radius: 5px;
+border: 1px solid #36e0a0;
+transition: 0.7s;
+}
+
+.banner_buttons .bnr_btn1 a:hover{
+background-color: #36e0a0 ;
+color: white;
+border-radius: 5px;
+border: 1px solid #36e0a0;      
+transition: 0.7s;
+}   
+
+.banner_buttons button a{
+text-decoration: none;
+padding: 10px 35px;
+font-weight: bold;
+color: #36e0a0;
+}
+
+/* ********* Robot Banner Content End *********** */
+
+
+/* After Banner Content Start */
+
+.after-banner-h4{
+font-size: 33px;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+
+.after-banner-h4 abbr{
+border-bottom: 4px solid #36e0a0;
+font-weight: 800;
+color: black;
+}
+
+/* ********* Three Column After Banner  Start ********* */
+
+/* ********* First Column  ********* */
+.dage-content{
+border: 1px solid rgba(54, 224, 160, 0.44);
+border-radius: 7px 30px 7px 30px;
+padding: 15px 25px;
+margin: 0 0 30px;
+}
+.dage-content img{
+width: 48px;
+height: 64px;
+margin: 15px 0 25px;
+}
+
+.dage-content h3{
+margin: 0 0 20px;   
+color: #0c1727;
+font-size: 22px;
+}
+
+.dage-content h3 span abbr{
+border-bottom: 4px solid #36e0a0;
+font-weight: bold ;
+}
+.dage-content p{
+font-weight: 500;
+line-height: 1.64;
+color: #1d3354;
+font-size: 14px;
+margin: 0 0 25px;
+}
+
+
+/* ********* Second Column  ********* */
+.bepaal-content{
+border: 1px solid rgba(54, 224, 160, 0.44);
+border-radius: 7px 30px 7px 30px;
+padding: 15px 25px;
+margin: 0 0 30px;
+}
+.bepaal-content img{
+width: 59px;
+height: 59px;
+margin: 15px 0 25px;
+}
+
+.bepaal-content h3{
+margin: 0 0 20px;   
+color: #0c1727;
+font-size: 22px;
+}
+
+.bepaal-content h3 span abbr{
+border-bottom: 4px solid #36e0a0;
+font-weight: bold ;
+}
+.bepaal-content p{
+font-weight: 500;
+line-height: 1.64;
+color: #1d3354;
+font-size: 14px;
+margin: 0 0 25px;
+}
+
+/* ********* Third Column  ********* */
+.klanten-content{
+border: 1px solid rgba(54, 224, 160, 0.44);
+border-radius: 7px 30px 7px 30px;
+padding: 15px 25px;
+margin: 0 0 30px;
+}
+.klanten-content img{
+width: 56px;
+height: 54px;
+margin: 15px 0 25px;
+}
+
+.klanten-content h3{
+margin: 0 0 20px;   
+color: #0c1727;
+font-size: 22px;
+}
+
+.klanten-content h3 span abbr{
+border-bottom: 4px solid #36e0a0;
+font-weight: bold ;
+}
+.klanten-content p{
+font-weight: 500;
+line-height: 1.64;
+color: #1d3354;
+font-size: 14px;
+margin: 0 0 25px;
+}
+.three-colum-bottom{
+margin-bottom: 60px;
+margin-top: 100px;
+}
+
+/* ********* Three Column After Banner  End ********* */
+
+/* ********* After Three Column    What is A JackBot Section Start ********* */
+.section-about{
+background-color: #f3fdff;
+padding: 100px 0;
+margin: 80px 0;
+}
+
+.about-image img{
+width: 100%;
+}
+
+/* About Content */
+.about-content{
+padding: 10px 20px;
+}
+.about-content h3{
+color: #467599;
+font-size: 23px;
+font-weight: 600;
+line-height: 45px;
+}
+.about-content span{
+display: block;
+font-size: 35px;
+font-weight: 600;
+color: #0c1727;
+}
+.about-content span abbr{
+font-weight: 800;
+color: #0c1727;
+border-bottom: 4px solid #36e0a0;
+}
+.about-content p{
+font-size: 15px;
+font-weight: 500;
+line-height: 1.64;
+color: #1d3354;
+margin-top: 20px;
+padding: 5px 0;
+}
+.about-content h4{
+font-size: 24px;
+font-weight: bold;
+margin: 0;
+color: #0c1727;
+}
+.about-content h4 span{
+font-weight: 500;
+font-size: 14px;
+margin: 0;
+padding: 5px 0;
+line-height: 1.64;
+}
+.about-content button{
+margin-top: 15px;
+background-color: transparent;
+}
+.about-content button a{
+padding: 10px 35px;
+background-color: #36e0a0;
+margin-top: 7px;
+border-radius: 5px;
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+font-size: 14px;
+border: 1px solid #36e0a0;
+transition: linear all 0.3s;
+}
+.about-content button a:hover{
+background-color: transparent;
+color: #36e0a0;
+}
+
+/* ********* What is A JackBot Section End ********* */
+
+/* ********* How Does JackBot Work Start *********** */
+
+.jackbot-work{
+font-size: 23px;
+font-weight: 600;
+color: #467599;
+line-height: 45px;
+margin: 0 0 60px;    
+text-align: center;
+/* margin-bottom: 150px; */
+}
+.jackbot-work span{
+display: block;
+font-size: 35px;
+font-weight: 700;
+color: #0c1727;
+}
+.jackbot-work span abbr{
+font-weight: 900;
+color: #0c1727;
+border-bottom: 4px solid #36e0a0;
+}
+
+/* ********** Jackbot Work Content  ********** */
+
+.jackbot-icon{
+margin-top: 50px;
+}
+.jackbot-icon .icon-speech {
+color: #36e0a0;
+border: 1px solid #36e0a0;
+}
+.jackbot-icon i{
+padding: 30px;
+border-radius: 50px;
+font-size: 24px;
+}
+
+.jackbot-content{
+padding: 15px;
+}
+.jackbot-content h4{
+font-size: 24px;
+font-weight: bold;
+color: #0c1727;
+margin-bottom: 20px;
+}
+.jackbot-content p{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.64;
+}
+
+/* *********** Build Your Work Icon ********* */
+.fa-gear{
+color: #36e0a0;
+}
+
+.jackbot-icon .icon-settings {
+color: #467599;
+border: 1px solid #467599;
+}
+
+/* *********** Arificial Inelligence Icon ********* */
+.jackbot-icon .icon-briefcase {
+color: #ff6565;
+border: 1px solid #ff6565;
+}
+
+/* ************ Jackbot Work Image Section ********** */
+.jackbot-image-section img{
+width: 100%;
+margin-top: 35px;
+}
+/* ********* How Does JackBot Work End */
+
+/********* Testimonials  Our Customers Say Section Start  ********** */
+.testimonial-outer{
+background-color: #f3fdff;
+margin-top: 100px;
+padding: 100px 0 ;
+}
+.testimonial-banner{
+background-image: url("../Images/testimonial-banner.png");
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-position: center;
+height: 680px;
+width: 100% ;
+}
+
+.testimonial-inner-content{
+justify-content: center;
+text-align: center;
+margin-right: 45px;
+}
+.testimonial-inner-content h3{
+font-size: 23px;
+font-weight: 600;
+color: #467599;
+line-height: 46px;
+margin-top: 10px;
+}
+.testimonial-inner-content h3 span{
+display: block;
+font-size: 35px;
+font-weight: 900;
+color: #0c1727;
+}
+.testimonial-inner-content h3 span abbr{
+color: #0c1727;
+border-bottom: 4px solid #36e0a0;
+}
+
+.testimonial-main-content img{
+border-radius: 50%;
+border: 4px solid #36e0a0;
+margin-top: 50px;
+margin-bottom: 25px;
+}
+.testimonial-main-content p{
+font-size: 15px;
+font-weight: 500;
+line-height: 1.64;
+color: #1d3354;
+}
+.testimonial-main-content h4{
+font-size: 24px;
+font-weight: bold;
+color: #0c1727;
+margin: 30px 0;
+}
+.testimonial-main-content h4 span{
+display: block;
+color: #ff6565;
+line-height: 1.64;
+font-size: 19px; 
+}
+
+/* ******** Testimonials  Our Customers Say Section End ********** */
+/* **** We always try to be as close to you as possible Start **** */
+.subscriber-bg{
+background-image: url('../Images/call-to-action2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+border-radius: 30px;
+padding: 30px 10% 45px;
+margin-top: -105px;
+}
+.klank-subscriber-bg{
+margin-top: 25px;
+}
+.klant-content-info p{
+opacity: 0.6;
+padding: 50px 100px;
+font-size: 20px;
+color: #0C1727;
+}
+
+
+.subscriber-inner{
+text-align: center;
+}
+.subscriber-inner h3{
+font-size: 40px;
+font-weight: bold;
+color: #36e0a0;
+margin: 30px 0 60px;
+}   
+
+.subscriber-inner .search-box input{
+padding: 10px 15px 10px 10px;
+width: 50%; border-radius: 6px;
+border: solid 1px #fff;
+font-size: 15px; color: #000;
+font-weight: 700;
+margin: 15px 0;
+}
+.subscriber-inner .search-box button{
+font-size: 15px;
+font-weight: bold;
+color: #fff;
+padding: 11.5px 35px;
+border: 1px solid #36e0a0;
+transition: linear all 0.3s;
+background-color: #36e0a0;
+text-decoration: none;
+border-radius: 5px;
+margin-left: 5px;
+}
+/* hover */
+.subscriber-inner .search-box button:hover{
+background-color: #1d3354;
+
+}
+
+/* ***** Meer dan 10,000 verschillende assets ****** */
+.meer-dan-content{
+text-align: center;
+width: 70%;
+margin: 60px auto 0;
+}
+.meer-dan-content h3{
+font-size: 34px;
+font-weight: bold;
+color: #1d3354;
+margin: 0 0 35px;
+}
+.meer-dan-content h3 span{
+color: #36e0a0;
+font-weight: 500;
+}
+
+.meer-dan-content p{
+margin: 25px 75px;
+font-size: 14px;
+font-weight: 500;
+color: #1d3354;
+line-height: 1.64;
+}
+.meer-dan-content button a{
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+padding: 10px 35px;
+border: #36e0a0 solid 1px;
+background-color: #36e0a0;
+border-radius: 5px;
+text-decoration: none;
+transition: linear all 0.3s;
+}
+
+.meer-dan-content button a:hover{
+background-color: #fff;
+color: #36e0a0;
+}
+/* **** We always try to be as close to you as possible End **** */
+
+/* ************ Footer Start ******** */
+.footer-row-top {
+margin-top: 183px;
+}
+.footer-row-top hr{
+color: #fff;
+margin-top: 10px;
+}
+
+.footer{
+background-image: url(../Images/footer2.png);
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: contain;
+background-position: center center;
+padding: 20px 0 20px 0;
+}
+
+
+.footer-jackbot img{
+width: 134px; height: 38px;
+margin: 0 0 25px;
+}
+.footer-jackbot p{
+letter-spacing: -0.7px;
+color: #9eadb9;
+line-height: 28px;
+font-size: 15px;
+margin: 15px 0;
+}
+
+/* ********** Footer About ************ */
+
+.footer-about{
+padding: 0;
+}
+.footer-about h4{
+font-size: 18px;
+font-weight: 600;
+color: #36e0a0;
+margin: 40px 0 25px;
+}
+.footer-about ul {
+text-align: left;
+padding: 0;
+}
+.footer-about ul li{
+list-style: none;
+margin: 7px 0;
+}
+.footer-about ul li a{
+text-decoration: none;
+font-size: 16px;
+color: #8499aa;
+}
+/* footer About Hover */
+.footer-about ul li a:hover{
+color: #fff;
+}
+
+/* ********* Footer Elements ******** */
+.footer-element{
+justify-content: start;
+}
+.footer-element h4{
+font-size: 18px;
+font-weight: 600;
+color: #36e0a0;
+margin: 40px 0 25px;
+}
+.footer-element ul {
+text-align: left;
+padding: 0;
+}
+.footer-element ul li{
+list-style: none;
+margin: 7px 0;
+}
+.footer-element ul li a{
+text-decoration: none;
+font-size: 16px;
+color: #8499aa;
+}
+/* footer Element Hover */
+.footer-element ul li a:hover{
+color: #fff;
+}
+
+/* Footer Social Icon */
+.copy-right p{
+font-size: 12px;
+color: #fff;
+margin: 0;
+}
+.social-icon{
+text-align: right;
+margin: 0;
+}
+
+.social-icon a{
+font-size: 18px;
+display: inline-block;
+color: #fff;
+line-height: 1;
+padding: 8px 0;
+margin-right: 15px;
+text-align: center;
+transition: 0.3s;
+text-decoration: none;
+}
+.social-icon a:hover{
+color: #36e0a0;
+}
+
+/* ************ Footer End ******** */
+/* Home Page End */
+
+/* **** Waarom Jackbot Page Start ******** */
+.waarom-outer{
+background-color: #f3fdff;
+margin: -52px 0 0 0 ;
+padding: 52px 0 0 0;
+}
+.waarom-inner{
+padding: 20px 15px;
+margin: 100px  0;
+}
+.waarom-inner h2{
+margin:  0;
+font-size: 50px;
+font-weight: 900;
+}
+.waarom-inner h2 span{
+border-bottom: 4px solid #36e0a0;
+}
+
+.waarom-inner-img{
+margin: 0;
+padding: 25px 0;
+text-align: right;
+}
+.waarom-inner-img img{
+width: 100%;
+}
+/* ***** Waraam jackbot End ***** */
+/* Waraam Jackbot Main Image Content Start */
+
+.waarom-image-section-1{
+margin: 50px 0;
+padding:0;
+}
+.waarom-image-section-1 img{
+width: 100%;
+}
+
+.waarom-image-section-1-content{
+margin: 20% 0;
+padding: 5px;
+}
+
+.waarom-image-section-1-content h3{
+font-size: 39px;
+font-weight: bold;
+}
+.waarom-image-section-1-content p{
+opacity: 0.6;
+color: #0C1727;
+letter-spacing: 0px;
+}
+/* Waraam Jackbot Main Image Content End */
+
+/* ***** Kennisbank Page Start ****** */
+
+.kennisbank-content{
+margin: 0;
+}
+.kennisbank-content h3{
+font-size: 39px;
+font-weight: 500;
+margin: 50px 0 30px 0;  
+text-align: center;
+}
+.kennisbank-content h3 span{
+color: #36e0a0;
+}
+.zoeken-content{
+width: 100%;
+margin: 10px 0;
+display: flex;
+flex-direction: row;
+}
+.zoeken-content input{
+padding: 10px 15px 10px 30px;
+width: 80%;
+border: 1px solid #DCDCDC;
+font-size: 20px;
+color: #000;
+font-family: 'Mulish', sans-serif;
+font-weight: 700;
+border-radius: 10px;
+opacity: 1;
+margin-right: 5px;
+}
+.zoeken-content button{
+background-color: transparent;
+
+}
+.zoeken-content button a{
+font-size: 22px;
+font-weight: 500;
+color: #fff;
+padding: 10px 35px;
+border: 1px solid #36e0a0;
+transition: linear all 0.3s;
+background: #36E0A0 0% 0% no-repeat padding-box;
+border-radius: 10px;
+text-decoration: none;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.kennisbank-content p{
+letter-spacing: 0px;
+color: #36E0A0;
+opacity: 1;
+text-decoration: none;
+font-size: 25px;
+font-weight: 500;
+padding: 50px 0 0 0;
+}
+.bekeken-content h3{
+font-size: 50px;
+font-weight: 500;
+color: #000000;
+}
+
+/* Collapsed DropDown Content Button Start */
+.accordion-space{
+margin: 15px 0;
+}
+
+.accordion-button-outer{
+font-size: 25px;
+background-color: transparent;
+border: none;
+border-bottom: 1px  solid #DCDCDC;
+padding: 30px 20px;
+cursor: pointer;
+width: 100%;
+text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+color: black;
+background-color: transparent;  
+box-shadow: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+background-image: url("../Images/drop-down.svg");
+transform: rotate(-180deg);
+}
+.accordion-button:focus{    
+border-color: #DCDCDC;
+color: black;
+outline: 0;
+box-shadow: 0 0 0 0;
+}
+/* Collapsed DropDown Content Button End */
+/* Accordion Body Inner Content   */
+
+
+
+.accordion-body-inner-content p{
+font-size: 16px;
+color: #A4A4A4;
+font-weight: 500;
+margin: 20px 0;
+}
+.accordion-body-inner-content ul li{
+font-size: 16px;
+color: #A4A4A4;
+font-weight: 500;
+}
+
+.accordion-body-inner-content ul li::marker{
+color: #36e0a0;
+font-size: 22px;
+}
+
+/* Accordion Body Inner Content  End */
+
+/* Contact Page Start ********* */
+.heb-p{
+color: #000;
+opacity: 0.6;
+font-size: 20px;
+margin: 50px 0;
+}
+
+.neem-h3{
+letter-spacing: 0px;
+color: #36e0a0;
+text-transform: uppercase;
+opacity: 1;
+font-size: 30px;
+}
+
+
+.user_field {
+position: absolute;
+padding: 0;
+margin: 35px 0 0 0px;
+font-size: 18px;
+color: #979797;
+font-family: 'Mulish', sans-serif;
+}
+
+.user_form input {
+padding: 40px 20px 8px 0px;
+border: 1px solid #fff;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+font-family: 'Mulish', sans-serif;
+border-radius: 0px;
+border-bottom: solid 1px #979797;
+font-size: 16px;
+color: #000000;
+width: 100%;
+}
+
+.contact-btn-outer{
+margin: 50px 0px;
+}
+.contact-btn-outer button {
+padding: 0px;
+background-color: transparent;
+}
+
+.contact-btn-outer button a{
+font-size: 25px;
+font-weight: 500;
+color: #fff;
+padding: 10px 35px;
+border: 1px solid #36e0a0;
+transition: linear all 0.3s;
+background: #36E0A0 0% 0% no-repeat padding-box;
+text-decoration: none;
+border-radius: 5px;
+opacity: 1;
+}
+
+.contact-box-outer{
+background: #FFFFFF;
+padding: 50px 40px;
+box-shadow: 0px 0px 30px #e1ebe972;
+margin: 100px 0 100px 25px;
+}
+
+.contact-box-outer h3{
+font-size: 30px;
+letter-spacing: 0px;
+color: #36E0A0;
+text-transform: uppercase;
+opacity: 1;
+margin: 25px 0px;
+}
+.icons-outer p{
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-size: 22px;
+}
+.icons-outer .cont_icon{
+text-decoration: none;
+color: #50E3C2;
+vertical-align: middle;
+margin: 10px 10px 10px 0px;
+}
